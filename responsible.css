@@ -1,0 +1,105 @@
+@media screen and (max-width: 769px) {
+
+    header{
+        display: none;
+    }
+
+    .about-conte{
+        background-color: rgba(255,255,255,0.8);
+        background-blend-mode: lighten; 
+    }
+
+    .point-paragraph{
+        padding: 0 5%;
+    }
+
+    .point-heading h1{
+        font-size: 20px;
+        letter-spacing: 6px;
+    }
+
+    .point-number{
+        flex-wrap:  wrap;
+        display: flex;
+    }
+
+    .point-number li{
+        width: 40%;
+        margin-bottom: 8px;
+    }
+
+    .each-numbers{
+        padding: 24px 0 0;
+    }
+
+    .point-para p{
+        font-size: 12px;
+    }
+
+    .flow-header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .flow-center{
+        padding: 0;
+    }
+
+    .flow-center h1{
+        font-size: 20px;
+        letter-spacing: 6px;
+    }
+
+    .flow-step{
+        display: inline-block;
+    }
+
+    .step-img-1{
+        text-align: center;
+    }
+
+    .step-img-2{
+        text-align: center;
+    }
+
+    .step-img-3{
+        text-align: center;
+    }
+
+    .access-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .map-access{
+        padding: 0;
+    }
+
+    .map-access h1{
+        font-size: 20px;
+        letter-spacing: 6px;
+    }
+
+    .map-adress{
+        display: inline-block;
+    }
+
+    .access-adress{
+        width: 100%;
+    }
+
+    .access-paragraph{
+        padding: 10px 0;
+    }
+
+    .map-wrapper{
+        width: 100%;
+    }
+
+    .access-adress p{
+        margin: 0;
+    }
+}
